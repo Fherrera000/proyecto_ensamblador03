@@ -1,0 +1,32 @@
+# Archivos de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Archivos de depuración
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+
+# Archivos generados por el sistema
+*.db
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de pruebas o de publicaciones
+TestResults/
+*.publish*
