@@ -10,5 +10,5 @@ extern "C" {
     void capturar_ficha(void* ficha, int jugador);
     void verificar_captura(int jugador, int posicion);
     int verificar_victoria(int jugador);
-    unsigned int* obtener_tablero(); // <-- agregado
+    unsigned int* obtener_tablero(); 
 }

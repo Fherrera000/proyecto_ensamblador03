@@ -3,9 +3,11 @@
 extern "C" {
 
     // Variables globales
+	// el jugador gana cuando tiene 2 fichas en la meta, las dos fichas tienen que dar una vuelta completa ya que es un vector circular
+    // No he implementado casillas seguras y la logica del movimiento esta algo chafa, por si puedes checar
     unsigned char jugadores[32 * 4] = { 0 }; // 4 jugadores * 32 bytes
     unsigned int tablero[52] = { 0 };
-    unsigned int posiciones_inicio[4] = { 0, 13, 26, 39 };
+    unsigned int posiciones_inicio[4] = { 0, 13, 26, 39 }; // < -- Posiciones de inicio para cada jugador, es un vector circular
     unsigned int turno_actual = 0;
     unsigned int estado_juego = 1;
     int ganador = -1;
